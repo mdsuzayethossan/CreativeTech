@@ -8,12 +8,18 @@ body {
 .logo-color {
     color: #4A4A4A;
 }
+.overlay-color {
+    background-color: #242424;
+}
 
 .tech-primary {
     color: #289BDE;
 }
 .tech-bg-primary {
     background-color: #289BDE;
+}
+.black {
+    background-color: #161616;
 }
 .heading-color {
     color: #4A4A4A;
