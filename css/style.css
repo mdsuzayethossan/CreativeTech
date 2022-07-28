@@ -15,6 +15,9 @@ body {
 .tech-primary {
     color: #289BDE;
 }
+.tech-primary:hover {
+    color: #289BDE;
+}
 .tech-bg-primary {
     background-color: #289BDE;
 }
