@@ -27,7 +27,7 @@ body {
 .heading-color {
     color: #4A4A4A;
 }
-.carousel-inner::before {
+.banner-overlay::before {
     position: absolute;
     content: '';
     width: 100%;
