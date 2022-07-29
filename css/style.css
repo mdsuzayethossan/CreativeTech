@@ -2,6 +2,9 @@
                     font 
 --------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/*--------------------------------------------------
+     common css start here
+----------------------------------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -11,7 +14,6 @@ body {
 .overlay-color {
     background-color: #242424;
 }
-
 .tech-primary {
     color: #289BDE;
 }
@@ -27,14 +29,16 @@ body {
 .heading-color {
     color: #4A4A4A;
 }
+/*--------------------------------------------------
+     banner css start here 
+----------------------------------------------------*/
 .banner-overlay::before {
     position: absolute;
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgba(8, 13, 21, 0.5);
+    background-color: rgba(8, 13, 21, 0.6);
     z-index: 9;
-
 }
 .carousel-caption, .carousel-control-next, .carousel-control-prev {
     z-index: 999;
@@ -47,18 +51,31 @@ body {
 .banner-text {
     padding: 0 10vw;
 }
-
 .footer-social-background {
     width: 40px;
     height: 40px;
     line-height: 40px;
     background-color: #242424;
 }
+.banner-heading {
+    font-weight: 600;
+}
+/*--------------------------------------------------
+     responsive media queries only for mobile 
+----------------------------------------------------*/
 @media only screen and (max-width: 600px) {
    .banner-text {
+    font-size: .75rem;
     padding: 0;
-    height: 42px;
+    height: 53px;
     overflow: hidden;
     text-overflow: ellipsis;
+   }
+   .banner-heading {
+    font-size: .75rem;
+   }
+   .btn-lg {
+    font-size: .75rem;
+    padding: .3rem .75rem;
    }
   }
