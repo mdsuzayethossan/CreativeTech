@@ -17,7 +17,7 @@ body {
 .tech-primary {
     color: #289BDE;
 }
-.tech-primary:hover {
+.join-btn button.btn:hover {
     color: #289BDE;
 }
 .tech-bg-primary {
@@ -64,6 +64,9 @@ body {
      responsive media queries only for mobile 
 ----------------------------------------------------*/
 @media only screen and (max-width: 600px) {
+    .nav-register:hover {
+        color: white!important;
+    }
    .banner-text {
     font-size: .75rem;
     padding: 0;
